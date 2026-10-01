@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 npm::update_all() {
 	outdated=$(npm --location=global outdated | tail -n +2)
 
